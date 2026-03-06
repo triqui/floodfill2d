@@ -25,12 +25,9 @@ Features:
 
 ------------------------------------------------------------------------
 
-# Demo
+## Live Demo
 
-Run the interactive demo locally:
-
-npm install
-npm run demo
+https://triqui.github.io/floodfill2d/demo/
 
 ------------------------------------------------------------------------
 
@@ -42,7 +39,7 @@ Clone the repository:
 
 Or copy the single source file into your project:
 
-src/FloodFill2D.ts
+    src/FloodFill2D.ts
 
 ------------------------------------------------------------------------
 
