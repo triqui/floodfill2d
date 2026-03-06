@@ -3,7 +3,7 @@ import { resolve } from "path";
 export default defineConfig({
     base: "/floodfill2d/",
     build: {
-        outDir: "dist",
+        outDir: "docs",
         rollupOptions: {
             input: {
                 demo: resolve(__dirname, "demo/index.html")
