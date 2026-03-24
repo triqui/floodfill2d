@@ -35,7 +35,7 @@ https://triqui.github.io/floodfill2d/demo/
 
 Clone the repository:
 
-    git clone https://github.com/yourname/floodfill2d.git
+    git clone https://github.com/triqui/floodfill2d.git
 
 Or copy the single source file into your project:
 
