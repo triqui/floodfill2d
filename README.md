@@ -3,6 +3,8 @@
 ![TypeScript](https://img.shields.io/badge/typescript-5.x-blue)
 ![Tests](https://img.shields.io/badge/tests-vitest-green)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
+![status](https://img.shields.io/badge/status-active-brightgreen)
+
 
 A lightweight, fully typed **2D flood fill utility for rectangular
 grids**.
