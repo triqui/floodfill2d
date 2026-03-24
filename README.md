@@ -33,7 +33,7 @@ https://triqui.github.io/floodfill2d/demo/
 
 ------------------------------------------------------------------------
 
-# Installation
+## Installation
 
 Clone the repository:
 
@@ -45,7 +45,7 @@ Or copy the single source file into your project:
 
 ------------------------------------------------------------------------
 
-# Basic Usage
+## Basic Usage
 
 ``` ts
 import { FloodFill2D } from "./FloodFill2D";
@@ -73,7 +73,7 @@ Output:
 
 ------------------------------------------------------------------------
 
-# Replace Region (Destructive)
+## Replace Region (Destructive)
 
 ``` ts
 flood.replaceRegion(grid, 0, 0, 9);
@@ -87,7 +87,7 @@ Grid becomes:
 
 ------------------------------------------------------------------------
 
-# Diagonal Connectivity
+## Diagonal Connectivity
 
 Enable 8‑direction flood fill:
 
@@ -99,7 +99,7 @@ flood.getConnectedRegion(grid, 0, 0, {
 
 ------------------------------------------------------------------------
 
-# Custom Comparator
+## Custom Comparator
 
 Useful when grid cells are objects.
 
@@ -113,7 +113,7 @@ const region = flood.getConnectedRegion(grid, 0, 0, {
 
 ------------------------------------------------------------------------
 
-# Game Development Example
+## Game Development Example
 
 Typical use cases:
 
@@ -131,7 +131,7 @@ Used in strategy or puzzle games.
 
 ------------------------------------------------------------------------
 
-# API
+## API
 
 ### getConnectedRegion
 
@@ -147,7 +147,7 @@ Destructive operation.
 
 ------------------------------------------------------------------------
 
-# Complexity
+## Complexity
 
 Time complexity: **O(n)**\
 Memory complexity: **O(n)**
@@ -156,7 +156,7 @@ Where `n` is the number of grid cells.
 
 ------------------------------------------------------------------------
 
-# Requirements
+## Requirements
 
 -   rectangular grid (non jagged)
 -   TypeScript 5+
@@ -164,7 +164,7 @@ Where `n` is the number of grid cells.
 
 ------------------------------------------------------------------------
 
-# Running Tests
+## Running Tests
 
 Install dependencies and run the test suite:
 
